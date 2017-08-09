@@ -111,12 +111,6 @@ html {
 .header-nav a {
   color: #fff;
 }
-.header-nav > li:first-child a {
-  color: #ed6e2f;
-}
-.header-nav > li:first-child a:hover {
-  color: #fff;
-}
 .nav-links a {
 	font-size: 0.8rem;
 	font-weight: bold;
@@ -126,6 +120,12 @@ html {
 .nav-links a:hover,
 .nav-links a:active {
 	color: #ed6e2f;
+}
+.nav-links > li:first-child a {
+  color: #ed6e2f;
+}
+.nav-links > li:first-child a:hover {
+  color: #fff;
 }
 
 /* FOOTER STYLES */
